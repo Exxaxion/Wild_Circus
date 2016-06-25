@@ -1,0 +1,146 @@
+header {
+	text-align: center;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.linka {
+	color: white;
+	text-decoration: none;
+}
+.linkb {
+	color: red;
+	text-decoration: none;
+}
+#navi {
+	display: flex;
+}
+.calendar {
+	font-family: 'Trade Winds', cursive;
+	flex: 1;
+	padding : 10px;
+	background-color: rgba(150, 0, 0, 0.8);
+	color: white;
+    border: solid 1px rgba(150, 0, 0, 1);
+	height: 25px;
+	cursor: pointer;
+	border-radius: 20px 0px 0px 20px;
+    transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    -o-transition: height 0.2s;
+    -webkit-transition: height 0.2s;
+
+}
+.entrance {
+	display: none;
+	font-family: initial;
+}
+.show {
+	height: 300px;
+}
+.show .entrance{
+	display: block;
+}
+.special {
+	font-family: initial;
+	text-align: center;
+	margin-left: -45px;
+}
+.price {
+	font-family: 'Trade Winds', cursive;
+	flex: 1;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(150, 0, 0, 0.8);
+    color: white;
+    border: solid 1px rgba(150, 0, 0, 1);
+    height: 25px;
+    cursor: pointer;
+    transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    -o-transition: height 0.2s;
+    -webkit-transition: height 0.2s;
+}
+.highlighted {
+	height: 130px;
+}
+.list {
+	display: none;
+	font-family: initial;
+}
+.highlighted .list {
+	display: block;
+}
+.contact {
+	font-family: 'Trade Winds', cursive;
+	flex: 1;
+	padding: 10px;
+    background-color: rgba(150, 0, 0, 0.8);
+    color: white;
+    border: solid 1px rgba(150, 0, 0, 1);
+    height: 25px;
+    cursor: pointer;
+   	border-radius: 0px 20px 20px 0px;
+    transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    -o-transition: height 0.2s;
+    -webkit-transition: height 0.2s;
+}
+.mail {
+	display: none;
+	font-family: initial;
+}
+.slide .mail {
+	display: block;
+}
+.slide {
+	height: 75px;
+}
+body {
+
+	background-color: rgb(255,255,200);
+	background-size: auto;
+    background-position: center;
+}
+ul{
+	text-align: left;
+}
+li {
+	padding: 0px 10px 0px 10px;
+}
+h1 {
+	font-size: 70px;
+	font-family: 'Trade Winds', cursive;
+	color: rgb(150,0,0);
+}
+h2 {
+	font-family: 'Trade Winds', cursive;
+	font-size: 26px;
+	margin: 10px 0px -10px 0px;
+}
+div {
+	text-align: center;
+}
+article {
+	max-width: 970px;
+	margin: 30px auto;
+	background-color: rgba(255,255,100,0.3);
+	border: solid 1px rgba(255,255,0,0);
+	padding: 0px 20px 0px 20px;
+	overflow: auto;
+}
+article img {
+	float: right;
+}
+.one {
+	width: 60%;
+}
+.two {
+	width: 60%;
+}
+.three {
+	width: 60%;
+}
+footer {
+	font-size: 10px;
+	text-align: center;
+}
